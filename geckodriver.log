@@ -1,0 +1,35 @@
+1498427237625	geckodriver	INFO	Listening on 127.0.0.1:63665
+1498427239405	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498427243616	Marionette	INFO	Listening on port 63678
+1498427243732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498427244052	Marionette	DEBUG	loaded listener.js
+2017-06-25 14:47:24.177 plugin-container[95661:3142200] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-25 14:47:24.181 plugin-container[95661:3142200] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1498427244420	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1498427245634	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498427245634	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498427248505	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1498427251578	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498427253473	Marionette	INFO	New connections will no longer be accepted
+1498427281677	geckodriver	INFO	Listening on 127.0.0.1:63890
+1498427282752	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498427285188	Marionette	INFO	Listening on port 63901
+1498427285309	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498427285544	Marionette	DEBUG	loaded listener.js
+2017-06-25 14:48:05.634 plugin-container[95685:3143616] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-25 14:48:05.635 plugin-container[95685:3143616] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1498427285872	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1498427287354	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498427287355	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498427289804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1498427292547	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498427294242	Marionette	INFO	New connections will no longer be accepted
+[Child 95685] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
