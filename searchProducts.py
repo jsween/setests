@@ -1,14 +1,24 @@
+import os
 from selenium import webdriver
 
 # create a new Firefox session
-driver = webdriver.Firefox()
+# driver = webdriver.Firefox()
+# driver.implicitly_wait(30)
+# driver.maximize_window()
+
+# get the path of chromedriver
+dir = os.path.dirname(os.path.abspath(__file__))
+print "Dir is: " + dir
+chrome_driver_path = dir + "/chromedriver"
+# chrome_driver_path = "/usr/local/bin/chromedriver"
+driver = webdriver.Chrome(chrome_driver_path)
 driver.implicitly_wait(30)
 driver.maximize_window()
 
 # navigate to the application home page
 driver.get('http://demo-store.seleniumacademy.com/')
 
-# get the search textbox
+# get the search textbox by name
 search_field = driver.find_element_by_name('q')
 search_field.clear()
 

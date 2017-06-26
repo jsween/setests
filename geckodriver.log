@@ -33,3 +33,21 @@ JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1
 JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1498427294242	Marionette	INFO	New connections will no longer be accepted
 [Child 95685] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1498428912087	geckodriver	INFO	Listening on 127.0.0.1:51283
+1498428914144	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498428918100	Marionette	INFO	Listening on port 51296
+1498428918223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498428918620	Marionette	DEBUG	loaded listener.js
+2017-06-25 15:15:18.841 plugin-container[96128:3152286] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-25 15:15:18.842 plugin-container[96128:3152286] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1498428918872	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1498428919900	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498428919900	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498428922383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1498428925631	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1498428927434	Marionette	INFO	New connections will no longer be accepted
+[Child 96128] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
